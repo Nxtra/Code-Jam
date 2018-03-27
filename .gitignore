@@ -26,6 +26,7 @@
 *.xml
 *.txt
 *.iml
+*.gitignore
 ipch/
 obj/
 [Bb]in
@@ -33,7 +34,7 @@ obj/
 [Rr]elease*/
 Ankh.NoLoad
 .idea*/
-.out*/
+out*/
 
 #Tooling
 _ReSharper*/
