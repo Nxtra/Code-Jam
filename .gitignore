@@ -1,2 +1,50 @@
-/2008/InternetSolutions/SaveUniverse/ymatsux_0_0/Solution/nbproject/private/
-/2008/InternetSolutions/SaveUniverse/ymatsux_0_0/Solution/build/
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
+
+#Ide
+*.[Oo]bj
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.pyc
+*.xml
+*.txt
+*.iml
+ipch/
+obj/
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+Ankh.NoLoad
+.idea*/
+.out*/
+
+#Tooling
+_ReSharper*/
+*.resharper
+[Tt]est[Rr]esult*
+
+#Project files
+[Bb]uild/
+
+#Subversion files
+.svn
+
+# Office Temp Files
+~$*
