@@ -36,6 +36,14 @@ public class MyTests {
         assertEquals(2, station.calculateTrainsNeeded());
     }
 
+    @Test
+    public void midnightTest(){
+        LocalTime newTime = LocalTime.MIN.plusMinutes(-5);
+        assertEquals(LocalTime.of(23,55), newTime);
+    }
+
+
+
 /*    @Test
     public void testGenerateSortedSchedule(){
         List<ScheduleItem> arrivals = Arrays.asList(new ScheduleItem[]{})

@@ -1,10 +1,9 @@
 import java.time.LocalTime;
-import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
 
-    static String inputFile = "input.txt";
+    static String inputFile = "input2.txt";
     static String outputFile = "output.txt";
     static int currentCursorIndex;
 
@@ -44,6 +43,10 @@ public class Main {
             station1.addScheduleItemToDeparture(departureItem);
 
             LocalTime arrivalTimeB = TimeUtils.convertHHmmStringToTime(currentLine.split("\\s")[1]);
+            if(LocalTime.MIN.plusMinutes(-turnaroundTime-1).isBefore(arrivalTimeB)){
+                currentCursorIndex++;
+                continue;
+            }
             ScheduleItem incomingItem = new ScheduleItem("I", arrivalTimeB.plusMinutes(turnaroundTime));
             station2.addScheduleItemToArrivals(incomingItem);
 
