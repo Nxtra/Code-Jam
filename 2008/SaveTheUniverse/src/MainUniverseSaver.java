@@ -2,7 +2,7 @@ import java.util.List;
 
 public class MainUniverseSaver {
 
-    static String inputFile = "input.txt";
+    static String inputFile = "input2.txt";
     static String outputFile = "output.txt";
 
     static List<String> input;

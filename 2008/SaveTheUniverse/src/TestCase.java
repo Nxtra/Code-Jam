@@ -43,6 +43,8 @@ public class TestCase {
             currentCursorIndex++;
             checkIsSolved();
             checkMapIsFull();
+            if(mapIsFull)
+                currentCursorIndex--;
         }
     }
 
