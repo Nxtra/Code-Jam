@@ -1,3 +1,3 @@
-# CodingJam
+# Code Jam
 
-Practice 4 Google Coding
+Practice 4 Google Code Jam
